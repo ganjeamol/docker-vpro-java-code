@@ -30,7 +30,7 @@ services:
       - vproappdata:/usr/local/tomcat/webapps
 
   vproweb:
-    image: app
+    image: web
     ports:
       - "80:80"
 volumes:
